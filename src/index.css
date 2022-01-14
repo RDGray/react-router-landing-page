@@ -1,14 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100;300;400;500;600;700;800&display=swap");
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
-h1,
-p {
-  color: #fff;
-}
 
 body {
   margin: 0;
@@ -19,16 +9,28 @@ body {
   background: #000;
 }
 
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+p,
+a {
+  color: #fff;
+}
+
 ul {
   list-style-type: none;
 }
 a {
   text-decoration: none;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
 }
 
 .btn {
