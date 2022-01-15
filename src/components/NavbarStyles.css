@@ -37,8 +37,8 @@
 
   .nav-menu {
     position: absolute;
-    top: -1000%;
-    right: 0;
+    top: 0;
+    right: -100%;
 
     flex-direction: column;
     justify-content: center;
@@ -54,7 +54,7 @@
   }
 
   .nav-menu.active {
-    top: 0;
+    right: 0;
   }
   .nav-menu li {
     padding: 1rem 0;
