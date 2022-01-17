@@ -9,7 +9,7 @@ const Pricing = () => {
         <div className="card">
           <h3>- Basic -</h3>
           <span className="bar"></span>
-          <p className="currency"></p>
+          <p className="currency">1.5 Credit</p>
           <p>- 3 Days -</p>
           <p>- Views -</p>
           <p>- Featured -</p>
@@ -21,7 +21,7 @@ const Pricing = () => {
         <div className="card">
           <h3>- Extra -</h3>
           <span className="bar"></span>
-          <p className="currency"></p>
+          <p className="currency">2.5 Credit</p>
           <p>- 3 Days -</p>
           <p>- Views -</p>
           <p>- Featured -</p>
@@ -33,7 +33,7 @@ const Pricing = () => {
         <div className="card">
           <h3>- Business -</h3>
           <span className="bar"></span>
-          <p className="currency"></p>
+          <p className="currency">5 Credit</p>
           <p>- 3 Days -</p>
           <p>- Views -</p>
           <p>- Featured -</p>
