@@ -7,8 +7,19 @@ function Navbar() {
   const [click, setClick] = useState(false);
   const handleClick = () => setClick(!click);
 
+  //Navbar dark when scroll down
+  const [color, setColor] = useState(false);
+  const changeColor = () => {
+    if (window.scrollY >= 101) {
+      setColor(true);
+    } else {
+      setColor(false);
+    }
+  };
+  window.addEventListener("scroll", changeColor);
+
   return (
-    <div className="header">
+    <div className={color ? "header header-bg" : "header"}>
       <Link to="/">
         <h1>GLX Travel</h1>
       </Link>

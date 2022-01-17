@@ -1,0 +1,27 @@
+label {
+  color: #eee;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+
+  padding: 1rem;
+  margin: auto;
+  max-width: 37.5rem;
+}
+
+form label {
+  margin-bottom: 0.5rem;
+}
+
+form input,
+textarea {
+  margin-bottom: 1rem;
+  padding: 0.625rem 1.125rem;
+  font-size: 1.2rem;
+  font-family: "Outfit", sans-serif;
+  background: rgba(255, 255, 255, 0.8);
+  border: none;
+  border-radius: 0.2rem;
+}
